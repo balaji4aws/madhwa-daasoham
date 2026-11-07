@@ -133,4 +133,6 @@ Many videos give the same lyrics in several scripts: 88 videos carry 3 or more. 
 
 ## Source
 
+How the columns are derived is described in `DESIGN.md`. For answering questions, this README and the CSV are enough.
+
 Public YouTube metadata of the Daasoham channel: titles, descriptions, tags, counts and dates. Nothing is transcribed from audio. All content belongs to the Daasoham channel. This dataset is unofficial.
