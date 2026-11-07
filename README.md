@@ -2,6 +2,19 @@
 
 This repository is a dataset: one CSV file, `daasoham_videos.csv`, cataloging every video on the YouTube channel [Daasoham](https://www.youtube.com/@daasoham). The channel publishes Haridasa / Madhwa devotional music: Kannada *dasara padagalu* (songs of the Haridasas), Sanskrit stotras, chants, and serialized readings. Most songs are sung by Venugopal Khatavkar. This card describes what the data contains and how to answer questions from it correctly.
 
+## Grounding rules (read first)
+
+Answer **only from `daasoham_videos.csv`**. Do not hallucinate.
+
+1. **No invented facts.** Never invent or guess a video, title, URL, composer, singer, upload date, view count, language or lyric line. If the CSV doesn't contain it, say "not in this dataset".
+2. **Empty means unknown.** Do not fill an empty cell from general knowledge. For example, don't name a composer the channel didn't credit. If you add outside knowledge, label it clearly as *not from this dataset*.
+3. **Quote lyrics verbatim** from the `lyrics_*` columns, in the script they're in. Don't complete, correct, or re-transliterate them. Don't present a translation or meaning as if it were in the data; this dataset has no translations.
+4. **Compute counts, don't estimate.** Counts, totals, "most viewed" and date windows must come from filtering the rows. If you can't run the filter, say so instead of giving a number.
+5. **Cite every video** with its `url` (or `video_id`) so the answer can be checked.
+6. **Show uncertainty.** `composer`, `singer`, `music_by`, `song_language` and the `lyrics_*` split are derived from free text. If the answer depends on them, mention `song_language_basis` / `composer_credit_text`, or check `description`.
+7. **Data is a snapshot.** Views, likes and the video list are as of the snapshot date below. Say so when answering about "latest" or "current".
+8. **Zero results is a valid answer.** If no row matches, say "none in this dataset" and, if useful, show the closest matches with how they differ. Do not stretch a filter to produce an answer.
+
 ## File
 
 - `daasoham_videos.csv`: UTF-8 with BOM, comma-separated, header row.
