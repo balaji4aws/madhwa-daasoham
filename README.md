@@ -12,6 +12,7 @@ There's one file: **`daasoham_videos.csv`**. It has one row per video (regular v
 | `type` | `video` or `short` |
 | `title`, `song_name` | Full title, and the first segment of the title before any `\|` |
 | `details_fetched` | `no` means only title, views and duration are available for that video; the other columns are blank |
+| `on_channel` | `no` if the video was no longer listed on the channel at the latest refresh (deleted, private or unlisted); its last known details are kept |
 | `upload_date` | YYYY-MM-DD |
 | `views`, `likes`, `comments`, `duration_sec` | Counts at the latest refresh |
 | `composer` | Canonical composer name, e.g. `Purandara Dasa` covers Purandara Dasaru / Purandararu / ಪುರಂದರ / పురందర |
