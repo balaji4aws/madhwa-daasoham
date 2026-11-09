@@ -23,15 +23,15 @@ Answer **only from `daasoham_videos.csv`**. Do not hallucinate.
 - Text is in Kannada, Telugu, Tamil, Devanagari, Malayalam and Latin scripts.
 - An empty cell means the video's title/description does not state it. It does not mean the thing does not exist.
 
-## What's in it (snapshot 2026-11-07)
+## What's in it (snapshot 2026-11-09)
 
-**Size:** 479 videos (463 regular, 16 Shorts), uploaded 2019-08-11 to 2026-11-01.
+**Size:** 480 videos (464 regular, 16 Shorts), uploaded 2019-08-11 to 2026-11-07.
 
-**Uploads by year:** 2019: 16 · 2020: 30 · 2021: 108 · 2022: 61 · 2023: 93 · 2024: 70 · 2025: 64 · 2026: 37
+**Uploads by year:** 2019: 16 · 2020: 30 · 2021: 108 · 2022: 61 · 2023: 93 · 2024: 70 · 2025: 64 · 2026: 38
 
-**Length:** median 4 min 29 s. Up to 2 min: 55 · 2 to 7 min: 294 (typical sung song) · 7 to 20 min: 95 · over 20 min: 35 (long recitations, discourses, serialized parts such as *Sumadhwa Vijaya*, *Venkatesha Parijatha*, *Harikathamrutasara*, *Bhagavad Gita*).
+**Length:** median 4 min 29 s. Up to 2 min: 56 · 2 to 7 min: 294 (typical sung song) · 7 to 20 min: 95 · over 20 min: 35 (long recitations, discourses, serialized parts such as *Sumadhwa Vijaya*, *Venkatesha Parijatha*, *Harikathamrutasara*, *Bhagavad Gita*).
 
-**Views:** 141 million in total. Median 22,573 per video. The most-viewed are:
+**Views:** 141 million in total. Median 22,402 per video. The most-viewed are:
 
 | Views | Title |
 |---|---|
@@ -41,37 +41,37 @@ Answer **only from `daasoham_videos.csv`**. Do not hallucinate.
 | 8.2 M | Gajendra Moksha, Sri Vadirajaru |
 | 6.2 M | Dasanagu Visheshanagu, Kanakadasaru |
 
-**Sung language** (`song_language`): Kannada 226 · Sanskrit 167 · Telugu 4 · Hindi 1 · Unknown 81. No Marathi songs.
+**Sung language** (`song_language`): Kannada 227 · Sanskrit 167 · Telugu 4 · Hindi 1 · Unknown 81. No Marathi songs.
 
-**Composer stated** in 304 of 479 videos. Most frequent:
+**Composer stated** in 305 of 480 videos. Most frequent:
 
 | Composer | Videos | Sung language |
 |---|---|---|
 | Prasanna Vitthala Dasa (Pt. Vadirajacharya Karanam) | 50 | Kannada 29, Sanskrit 18, Telugu 3 |
 | Vadirajaru (Sri Vadiraja Tirtha) | 27 | Kannada 12, Sanskrit 7, Telugu 1, Unknown 7 |
 | Jagannatha Dasa | 27 | Kannada 24, Sanskrit 3 |
+| Vijaya Dasa | 22 | Kannada 22 |
 | Purandara Dasa | 21 | Kannada 21 |
-| Vijaya Dasa | 21 | Kannada 21 |
 | Harapanahalli Bheemavva | 17 | Kannada 17 |
 | Narayana Panditacharya | 14 | Sanskrit 14 (Sumadhwa Vijaya) |
 | Madhwacharya | 12 | Sanskrit 10, Kannada 1, Unknown 1 |
 | Prasanna Venkata Dasa, Vyasarajaru, Sri Gokavi Anantaryaru | 6 each | |
 | Kanaka Dasa, Sripadarajaru, Sri Satyatma Teertharu | 4 each | |
 
-89 distinct composer values in total.
+88 distinct composer values in total.
 
-**Lyrics:** 204 videos have lyrics in the description. Coverage by script:
+**Lyrics:** 205 videos have lyrics in the description. Coverage by script:
 
 | Column | Videos |
 |---|---|
-| `lyrics_english` (Latin transliteration) | 165 |
-| `lyrics_kannada` | 144 |
-| `lyrics_devanagari` | 92 |
-| `lyrics_telugu` | 55 |
-| `lyrics_tamil` | 43 |
+| `lyrics_english` (Latin transliteration) | 166 |
+| `lyrics_kannada` | 145 |
+| `lyrics_devanagari` | 93 |
+| `lyrics_telugu` | 56 |
+| `lyrics_tamil` | 44 |
 | `lyrics_malayalam` | 5 |
 
-Many videos give the same lyrics in several scripts: 88 videos carry 3 or more. In addition, 18 videos link a lyrics PDF, 28 say their lyrics are in the subtitles (CC), and 180 titles say "With Lyrics" (usually on-screen lyrics). 286 videos have no lyrics text in the description.
+Many videos give the same lyrics in several scripts: 89 videos carry 3 or more. In addition, 18 videos link a lyrics PDF, 28 say their lyrics are in the subtitles (CC), and 181 titles say "With Lyrics" (usually on-screen lyrics). 286 videos have no lyrics text in the description.
 
 ## Columns
 
